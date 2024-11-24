@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+@import "components/variaveis";
+@import "components/header";
+a,
+li,
+button {
+  all: inherit;
+}
+
+body {
+  height: 100dvh;
+  font-family: "Lato", sans-serif;
+}
+
+

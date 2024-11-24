@@ -1,0 +1,61 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+header {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: radial-gradient(#333444, #141B24);
+  color: white;
+}
+
+.links {
+  position: absolute;
+  left: 82px;
+  top: 41px;
+  z-index: 2;
+}
+.links ul {
+  display: flex;
+  gap: 14px;
+}
+.links ul li {
+  cursor: pointer;
+}
+
+.logo img {
+  position: relative;
+  z-index: 3;
+  height: auto;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #141B24;
+  opacity: 40%;
+  width: 100%;
+  height: 100dvh;
+  z-index: 0; /* Certifique-se de que o z-index do background é 0 */
+}
+
+a,
+li,
+button {
+  all: inherit;
+}
+
+body {
+  height: 100dvh;
+  font-family: "Lato", sans-serif;
+}/*# sourceMappingURL=style.css.map */
